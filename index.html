@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="UTF-8" content="SketchPad">
+      <title>SketchPad</title>
+      <link rel="stylesheet" type="text/css" href="eric-meyer-reset.css" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Khula">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+  </head>
+
+
+<body>
+  <h1 class="header">Sketchpad</h1>
+  <div class = "controls">
+    <button class = "reset">Reset</button><br>
+    <form id="colorform">
+      <div class = "coloroption">
+        <img class="icon" src = ./images/pen.png/><br>
+        <input  class="color" type="radio" name="color_type" value="greyscale" checked>Pen</input>
+      </div>
+      <div class = "coloroption">
+        <img class="icon" src = ./images/colorwheel.jpg/><br>
+        <input  class="color" type="radio" name="color_type" value="random"> Random </input>
+      </div>
+      <div class = "coloroption">
+        <img class="icon" src = ./images/eraser.png/><br>
+        <input  class="color" type="radio" name="color_type" value="erase"> Eraser </input>
+      </div>
+    </form>
+  </div>
+
+<div class = "wrapper">
+</div>
+
+<div class = "footer">
+  <div class = "left">
+    <a class = "footerlink" href=#>Kareem Al Saady</a><br>
+    <a class = "footerlink" href=#>2017</a>
+  </div>
+  <div class = "right">
+    <a class = "footerlink" href=#>The Odin Project</a><br>
+    <a class = "footerlink" href=#>Project: Sketchpad</a>
+  </div>
+
+</div>
+
+<script type='text/javascript' src='js/sketcher.js'></script>
+</body>
+
+</html>
