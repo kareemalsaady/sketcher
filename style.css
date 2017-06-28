@@ -26,24 +26,50 @@ a{
 .controls{
   color: black;
   font-family: Khula;
-  width: 60%;
+  width: 40%;
   position: relative;
   margin: 20px auto;
   text-align: center;
   padding: 20px 20px 20px 20px;
 }
 
-.reset{
+.reset, .circles, .squares{
   display: inline-block;
   font-family: "Roboto", sans-serif;
-  font-size: 1.1em;
+  font-size: 1em;
   border-radius: 10px;
-  margin: 0 auto;
+  margin: 0 25px;
+  color: #2f3949;
   background-color: white;
   border: 1px solid black;
+  margin-bottom: 25px;
+  padding: 5px 10px 5px 10px;
+  text-transform: uppercase;
 
 }
 
+.reset:hover, .circles:hover, .squares:hover{
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  border-radius: 10px;
+  margin: 0 25px;
+  color: white;
+  background-color: #2f3949;
+  border: 1px solid black;
+  margin-bottom: 25px;
+  padding: 5px 10px 5px 10px;
+  text-transform: uppercase;
+
+}
+
+.reset{
+  float: left;
+}
+
+.circles,.squares{
+  float: right;
+}
 
 .color{
   display: inline-block;
@@ -74,7 +100,7 @@ margin-left: 20px;
 div.wrapper{
   background-color: white;
   height: auto;
-  width: 1024px;
+  width: 400px;
   margin: 0 auto;
   border: 4px solid black;
   overflow: hidden;

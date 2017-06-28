@@ -4,8 +4,8 @@ $(document).ready(function(){
   var grid = window.prompt("How many in your grid?", "Enter No. Grid");
 
 
-  var cellwidth = (1024/grid)-2;
-  var cellheight = (1024/grid)-2;
+  var cellwidth = (400/grid)-2;
+  var cellheight = (400/grid)-2;
 
   for (i=0; i<(grid*grid); i++){
     $('.wrapper').append('<div class="cell"></div>');
@@ -15,6 +15,13 @@ $(document).ready(function(){
   $('.cell').css("height", cellwidth);
   $('.cell').css("width", cellheight);
 
+
+  $('.squares').on('click', function() {
+      $('.cell').css('border-radius', '0');
+    });
+    $(".circles").on('click', function() {
+      $('.cell').css('border-radius', '50%');
+    });
 
 
   $('.cell').mouseover(function(){
@@ -44,10 +51,9 @@ $(document).ready(function(){
 
 
 
-
-
     $('.reset').click(function() {
         location.reload();
+
 
     $('.erase').click(function() {
         $('<div class="cell"></div>').css("background-color","grey");
