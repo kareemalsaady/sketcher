@@ -9,15 +9,17 @@ a{
 }
 
 .header{
-  color: navy;
-  font-family: Khula;
-  width: 50%;
-  position: relative;
-  margin: 0 auto;
-  border-bottom: 2px solid black;
-  text-align: center;
-  font-size: 4em;
-  margin-top: 50px;
+  color: white;
+  font-family: "Montserrat", serif;
+  font-weight:200;
+  width: 100%;
+  height: auto;
+  background-color: #2f3949;
+  text-align: left;
+  padding: 20px 50px 20px 20px;
+  font-size: 2em;
+  line-height: 2em;
+  margin-top: 0px;
 }
 
 
@@ -27,14 +29,13 @@ a{
   width: 60%;
   position: relative;
   margin: 20px auto;
-  border: 2px solid darkgray;
   text-align: center;
   padding: 20px 20px 20px 20px;
 }
 
 .reset{
   display: inline-block;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.1em;
   border-radius: 10px;
   margin: 0 auto;
@@ -48,7 +49,7 @@ a{
   display: inline-block;
   margin: 0px 20px 0px 20px;
   display: inline-block;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.1em;
 }
 
@@ -100,16 +101,15 @@ div.cell {
 }
 
 .left{
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  text-decoration: none;
-  color: gray;
   float: left;
 }
 
 .right{
-  font-family: Roboto, sans-serif;
+  float: right;
+}
+
+.footerlink{
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: gray;
-  float: right;
 }
